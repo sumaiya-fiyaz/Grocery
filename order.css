@@ -1,0 +1,137 @@
+#orderhead{
+    text-align: center;
+}
+#item1h{
+    margin-left: 130px;
+}
+
+
+.product-container {
+    max-width: 800px;
+} 
+   
+
+.product-item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.product-item img {
+    max-width: 120px;
+    margin-right: 10px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-description {
+    flex: 1; /* Take up remaining space */
+    font-size: 14px;
+    margin-right: 20px; /* Add spacing between description and price */
+}
+
+.product-price {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity label {
+    margin-right: 5px;
+}
+.order-summary {
+    border-top: solid;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.order-summary div {
+    margin-bottom: 5px;
+}
+
+.order-summary p {
+    font-size: 14px;
+}
+
+.total {
+    font-weight: bold;
+    border-top: solid;
+}
+
+.p1{
+    margin-left: 50%;
+    width: 200px;
+    align-items: center;
+}
+body{
+    background-color: rgb(241, 180, 180);
+}
+.e4{
+    margin-left: 50%;
+    width: 200px
+}
+
+
+@media (max-width: 768px) {
+    .product-item {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .product-item img {
+        max-width: 120px;
+        margin-right: 10px;
+    }
+
+    .product-details {
+        text-align: left;
+    }
+
+    .quantity input {
+        width: 50px;
+    }
+
+    .p1 {
+        margin: 10px auto;
+        width: 100%;
+        align-items: center;
+    }
+    #fpic{
+        margin-right: 30px;
+    }
+    .e4{
+        margin-right: 50%;
+        width:350px;
+        margin-left: 0;
+    }
+}
+.e1:hover, .e2:hover, .e3:hover, .e4:hover{
+    transform: scale(1.2, 2);
+    
+}
+
+#apply:hover{
+    width:200px ;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    
+}

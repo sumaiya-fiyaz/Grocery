@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="grocery,vegetables,shopping,cosmetics,dairy,skincare">
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <meta name="description" content="this a home page of a grocery store">
+    <link rel="stylesheet" href="order.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="rgb(231, 189, 189)">
+    <title> Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (1)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <header>
+        <section id="orderhead">
+            <a href="home.html" target="_blank" id="homeimages"><img src="./images/logo.jpg" alt="picture of the logo"width="100" height="80"></a>
+            <h1>Your shopping cart</h1>
+        </section>
+    </header>
+    <main >
+        <div class="product-container" role="list">
+            <div id="item1" class="product-item" role="listitem"
+                aria-labelledby="product1-name product1-description product1-price">
+                <img src="./images/foundation.png" alt="picture of the foundation" id="fpic" width="100" height="120">
+                <div class="product-details">
+                    
+                    <p class="product-name">Huda Beauty Foundation </p>
+                    <div class="product-info">
+                        
+                        <p class="product-description">Leave imperfections behind you with this waterproof foundation that has a transfer-proof and fade-proof formula.</p>
+                        <p class="product-price">Price: $16.00 &nbsp; &nbsp; &nbsp; x</p>
+                        <div class="quantity1">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" name="q1" id="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-container" role="list">
+            <div id="item2" class="product-item" role="listitem"
+                aria-labelledby="product2-name product2-description product2-price">
+                <img src="./images/p4.jpg" alt="picture of the foundation" width="100" height="120">
+                <div class="product-details">
+                    <p class="product-name">Anchor Newdale </p>
+                    <div class="product-info">
+                        <p class="product-description">Anchor Newdale Set Yoghurt is a high-quality, creamy, and
+                            delicious yoghurt made with natural ingredients. It is set using traditional methods, which
+                            gives it a rich and authentic taste. The yoghurt is naturally fermented and contains live
+                            cultures, making it a healthy and nutritious choice.</p>
+                        <p class="product-price">Price: $1.00 x</p>
+                        <div class="quantity">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" name="q2" id="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-container" role="list">
+            <div id="item3" class="product-item" role="listitem"
+                aria-labelledby="product3-name product3-description product3-price">
+                <img src="./images/p5.jpg" alt="picture of the foundation" width="100" height="120">
+                <div class="product-details">
+                    <p class="product-name">Anchor UHT Milk </p>
+                    <div class="product-info">
+                        <p class="product-description">Anchor UHT Milk is sourced exclusively from grass-fed cows in the
+                            green pastures of New Zealand, bringing pure and natural goodness to families for over 125
+                            years.</p>
+                        <p class="product-price">Price: $ 2.00 &nbsp; &nbsp; &nbsp; x</p>
+                        <div class="quantity">
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" name="q3" id="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-summary" role="region" aria-labelledby="order-summary-heading">
+            <div class="subtotal">
+                <p>Subtotal:&nbsp; &nbsp; &nbsp; $x &nbsp;</p>
+            </div>
+            <div class="shipping">
+                <p>Shipping:&nbsp; &nbsp; &nbsp; $y &nbsp;</p>
+            </div>
+            <div class="tax">
+                <p>Tax:&nbsp; &nbsp; &nbsp; $z &nbsp;</p>
+            </div>
+            <div class="total">
+                <p>Total:&nbsp; &nbsp; &nbsp; $xyz &nbsp;</p>
+            </div>
+        </div> 
+        <h3>Enter the coupon number if you have</h3>
+        <input type="textbox" id="textboxcoupon" max="15" placeholder="coupon number">
+
+        <input type="submit" value="Apply" id="apply">
+        <br>
+        <br>
+        <div class="pay">
+        <input type="submit" value="pay with paypal" class="p1" class="e1"><br><br>
+        <input type="submit" value="pay with gpay" class="p1" class="e2"><br><br>
+        <input type="submit" value="checkout" class="p1" class="e3">
+        <br><br>
+        <input type="reset" value="reset" id="p1" class="e4"></div>
+    </main>
+    <footer>
+        <!--
+            referrencing:
+            - Huda Beauty (n.d.). Huda Beauty Huda Beauty Fauxfilter Luminous Matte Full Coverage Foundation Mini - 240N Toasted Coconut (15ml). Available at: https://www.tirabeauty.com/product/huda-beauty-fauxfilter-luminous-matte-foundation-mini-240n-toasted-coconut-15ml-7575569.
+            - ANCHOR (n.d.). ANCHOR Newdale Set Yoghurt, 80g. Available at: https://www.spar.lk/products/anchor-newdale-set-yoghurt-80g.
+            - Nestle (n.d.). Nestle UHT 100% Low Fat Milk w/Screw Cap (1L). Available at: https://coffee-expresstt.com/products/nestle-uht-100-low-fat-milk-w-screw-cap-12x1l.
+            - family mart (n.d.). Available at: https://m.facebook.com/onlinemarthyd/.
+
+‌
+‌
+‌
+        -->
+    </footer>
